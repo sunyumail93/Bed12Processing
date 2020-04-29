@@ -2,7 +2,7 @@
 Bash scripts related to bed12 (or bed6, bed2) data processing
 
 ## BED12Extractor.sh
-![](images/GeneStructure.jpg)
+![](images/GeneStructure.png)
 
 This script extracts 5’UTR, 3‘UTR, CDS or intron from a BED12 file
 
