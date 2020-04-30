@@ -1,5 +1,5 @@
 # Bed12Processing
-Bash scripts related to bed12 (or bed6, bed2) data processing
+This repository contains a set of Bash and Python3 scripts related to bed12 (or bed3, bed4) data processing
 
 ## BED12Extractor.sh
 ![](images/GeneStructure.png)
@@ -30,3 +30,13 @@ This is specially useful after feature extraction since CDS or UTR extracted dat
 ```
 BED12FeatureAdder.sh data/mm10.mRNA.cds.bed12 cds
 ```
+
+## BED12LeftRightExtender.py
+
+![](images/BorderExtension.png)
+
+This script takes bed12 as input, extend column 2 and column 3 borders, and change column 11 and 12 accordingly
+
+[Usage]: [BED12LeftRightExtender.py] [Gene.bed12] [LeftExtension] [RightExtension] [Output.ext.bed12]
+
+[Output]: A new bed12 file
