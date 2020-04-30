@@ -10,7 +10,7 @@ then
   echo "*This script mimics the bam2x to add a suffix to the bed12 annotation, in the col4 name   *"
   echo "*The original file will be modified                                                       *"
   echo "*This solves the confusion in gene names after CDS/UTR feature extraction                 *"
-  echo "[Usage]: `basename $0` [Data.bed12] [Suffix of col4]                                      *"
+  echo "[Usage]: `basename $0` [Data.bed12] [Suffix of col4]                               *"
   echo "[Output]: same file name with suffix (cds) added to col4, for example: col4_cds           *"
   echo "*******************************************************************************************"
 else
