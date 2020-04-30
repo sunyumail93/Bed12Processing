@@ -40,3 +40,7 @@ This script takes bed12 as input, extend column 2 and column 3 borders, and chan
 [Usage]: [BED12LeftRightExtender.py] [Gene.bed12] [LeftExtension] [RightExtension] [Output.ext.bed12]
 
 [Output]: A new bed12 file
+
+```
+python3 BED12LeftRightExtender.py data/mm10.mRNA.bed12 100 200 data/mm10.mRNA.Left100Right200.Ext.bed12
+```
