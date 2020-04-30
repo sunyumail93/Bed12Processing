@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#BED12BorderExtender.py
+#BED12LeftRightExtender.py
 #This script takes Annotation bed12 as input, extend col2 and col3 borders, considering the splicing
 #This is similar to bedtools slop, but considering the splicing, so only the first and last exon length may change.
 #Version: Yu H. Sun, 2018-10-02
