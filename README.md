@@ -35,7 +35,7 @@ BED12FeatureAdder.sh data/mm10.mRNA.cds.bed12 cds
 
 ![](images/BorderExtension.png)
 
-This script takes bed12 as input, extend column 2 and column 3 borders, and change column 11 and 12 accordingly
+This script takes bed12 as input, extend column 2 and column 3 borders, and changes column 11 and 12 accordingly
 
 [Usage]: [BED12LeftRightExtender.py] [Gene.bed12] [LeftExtension] [RightExtension] [Output.ext.bed12]
 
@@ -59,11 +59,11 @@ BED12RemoveDupNames.sh data/Demo.WithDup.bed12 data/Demo.NoDup.bed12
 
 ## BED12TranslateAddORF.sh
 
-This pipeline that takes ORF genomic bed4 (first 4 columns from BED12TranslateTx2GenomePos.sh) as input, and adds ORF information in column 7-8
+This pipeline takes ORF genomic bed4 (first 4 columns from BED12TranslateTx2GenomePos.sh) as input, and adds ORF information in column 7-8
 
 [Usage]: `basename $0` -i [Genes.bed12] -t [GenomePos.bed4|chr start end TxName] -o [Output.bed12]
 
-[Output]: A bed12 annotation file with new orfs added. The ones that don't have new orfs WON'T be output
+[Output]: A bed12 annotation file with new ORFs added. The ones that don't have new ORFs WON'T be output
 
 ```
 BED12TranslateAddORF.sh -i data/mm10.mRNA.bed12 -t data/mm10.mRNA.tx.cds.bed12 -o data/mm10.mRNA.ORFAdded.bed12
@@ -87,7 +87,7 @@ BED12TranslateGenomePos2Tx.sh -i data/mm10.mRNA.bed12 -t data/mm10.mRNA.cds.bed1
 
 ## BED12TranslateTx2GenomePos.sh
 
-This is a translator of transcript locations to gemomic locations, based on the BED12 annotation, a reverse of BED12TranslateGenomePos2Tx.sh.
+This is a translator of transcript locations to gemomic locations, based on the BED12 annotation, a reverse of BED12TranslateGenomePos2Tx.sh
 
 [Usage]: BED12TranslateTx2GenomePos.sh -i [Genes.bed12] -t [Transcript.bed] -o [Output.bed12]
 
