@@ -61,7 +61,7 @@ BED12RemoveDupNames.sh data/Demo.WithDup.bed12 data/Demo.NoDup.bed12
 
 This pipeline takes ORF genomic bed4 (first 4 columns from BED12TranslateTx2GenomePos.sh) as input, and adds ORF information in column 7-8
 
-[Usage]: `basename $0` -i [Genes.bed12] -t [GenomePos.bed4|chr start end TxName] -o [Output.bed12]
+[Usage]: BED12TranslateAddORF.sh -i [Genes.bed12] -t [GenomePos.bed4|chr start end TxName] -o [Output.bed12]
 
 [Output]: A bed12 annotation file with new ORFs added. The ones that don't have new ORFs WON'T be output
 
