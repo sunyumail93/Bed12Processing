@@ -108,6 +108,6 @@ BED12TranslateTx2GenomePos.sh -i gene.bed12 -t gene.cds.tx -o gene.cds.bed12.val
 ```
 gene.cds.bed12.validate will be same as gene.cds.bed12
 
-Those scripts have been used in the following publication:
+These scripts have been used in the following publication:
 
 Sun, Y.H., Zhu, J., Xie, L.H. et al. Ribosomes guide pachytene piRNA formation on long intergenic piRNA precursors. Nat Cell Biol 22, 200–212 (2020). https://doi.org/10.1038/s41556-019-0457-4
