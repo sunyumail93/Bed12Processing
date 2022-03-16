@@ -35,7 +35,7 @@ BED12FeatureAdder.sh data/mm10.mRNA.cds.bed12 cds
 
 ![](images/BorderExtension.png)
 
-This script takes bed12 as input, extend column 2 and column 3 borders, and changes column 11 and 12 accordingly
+This script takes bed12 as input, extends column 2 and column 3 borders, and changes column 11 and 12 accordingly
 
 [Usage]: [BED12LeftRightExtender.py] [Gene.bed12] [LeftExtension] [RightExtension] [Output.ext.bed12]
 
@@ -47,7 +47,7 @@ python3 BED12LeftRightExtender.py data/mm10.mRNA.bed12 100 200 data/mm10.mRNA.Le
 
 ## BED12RemoveDupNames.sh
 
-This pipeline takes a bed12 file as input, add _1, _2, ... on column 4, for duplicated col4
+This pipeline takes a bed12 file as input, adds _1, _2, ... on column 4, for duplicated col4
 
 [Usage]: BED12RemoveDupNames.sh [Data|File in bed12 format] [OutputName] 
 
