@@ -87,7 +87,7 @@ BED12TranslateGenomePos2Tx.sh -i data/mm10.mRNA.bed12 -t data/mm10.mRNA.cds.bed1
 
 ## BED12TranslateTx2GenomePos.sh
 
-This is a translator of transcript locations to gemomic locations, based on the BED12 annotation, a reverse of BED12TranslateGenomePos2Tx.sh
+This is a translator of transcript locations to genomic locations, based on the BED12 annotation, a reverse of BED12TranslateGenomePos2Tx.sh
 
 [Usage]: BED12TranslateTx2GenomePos.sh -i [Genes.bed12] -t [Transcript.bed] -o [Output.bed12]
 
